@@ -11,32 +11,38 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
 <body>
-    <header class="header">
-        <div class="header__container container">
-        <nav class="site__nav" >
-   <a href="index.html"  class="nav__logo" lang="en">Web<span class="top-span">Studio</span></a>
-        <ul class="nav__list">
-   <li class="nav__item">
-      <a href="index.html" class="nav__link ">Студия</a>  
-        </li>
-   <li class="nav__item">
-         <a href="portfolio.html"  class="nav__link current">Портфолио</a>
-   </li>
-   <li class="nav__item">
-        <a href="index.html"  class="nav__link"> Контакты</a>
-        </li>
-        </ul>
-   </nav>
-        <ul class="contact-list">
-   <li class="contact__item">
-      <a href="mailto:info@devstudio.com"  class="contact__link">info@devstudio.com</a> 
-   </li>
-   <li class="contact__item">
-        <a href="tel:+38096111111"  class="contact__link">+38 096 111 11 11</a>
-   </li>
-        </ul>
-        </div>
-        </header>
+     <header class="header">
+          <div class="header__container container">
+          <nav class="site__nav" >
+     <a href="index.html"  class="nav__logo" lang="en">Web<span class="top-span">Studio</span></a>
+          <ul class="nav__list">
+     <li class="nav__item">
+        <a href="index.html" class="nav__link ">Студия</a>  
+          </li>
+     <li class="nav__item">
+           <a href="portfolio.html"  class="nav__link current">Портфолио</a>
+     </li>
+     <li class="nav__item">
+          <a href="index.html"  class="nav__link"> Контакты</a>
+          </li>
+          </ul>
+     </nav>
+          <ul class="contact__list">
+     <li class="contact__item">
+          <svg class="contact-link__icon" width="16px" height="12px">
+               <use href="./sprite.svg#envelope"></use>
+          </svg>
+        <a href="mailto:info@devstudio.com"  class="contact__link">info@devstudio.com</a> 
+     </li>
+     <li class="contact__item">
+          <svg width="10px" height="16px" class="contact-link__icon">
+               <use href="./sprite.svg#smartphone"></use>
+          </svg>
+          <a href="tel:+38096111111"  class="contact__link">+38 096 111 11 11</a>
+     </li>
+          </ul>
+          </div>
+          </header>
          <section class="portfolio">
              <div class="container">
 <ul class="btn-list">
@@ -96,17 +102,38 @@
 </div>
 </section>
 <footer>
-    <div class="container">
-        <a href="/" lang="en" class="footer__logo">Web<span class="bottom-span">Studio</span></a>
-        <address class="address">
-            <ul class="footer__list">
-                <li><a href="/" class="address__link">г. Киев, пр-т Леси Украинки, 26</a></li>
-                <li><a href="mailto:info@example.com" class="footer__link">info@example.com</a></li>
-                <li><a href="tel:+380991111111" class="footer__link">+380991111111</a></li>
-            </ul>
-        </address>
-
-    </div>
-</footer>
+     <div class="container footer">
+          <ul class="main__footer__list">
+               <li>
+          <a href="/" lang="en" class="footer__logo">Web<span class="bottom-span">Studio</span></a>
+          <address class="address">
+               <ul class="footer__list">
+               <li><a href="/" class="address__link">г. Киев, пр-т Леси Украинки, 26</a></li>
+               <li><a href="mailto:info@example.com" class="footer__link">info@example.com</a></li>
+               <li><a href="tel:+380991111111" class="footer__link">+380991111111</a></li>
+               </ul>
+          </li>
+          <li>
+               <h3 class="footer__subtitle">присоединяйтесь</h3>
+               <ul class="social__list">
+                    <li class="social-list__item" ><a class="social-list__link" href="">
+                         <svg class="social-link__icon">
+                         <use href="./sprite.svg#instagram" ></use>
+                    </svg>
+               </a>
+               </li>
+                    <li class="social-list__item" ><a class="social-list__link" href=""> <svg  class="social-link__icon">
+                         <use href="./sprite.svg#twitter"></use>
+                    </svg></a></li>
+                    <li class="social-list__item" ><a class="social-list__link" href=""> <svg class="social-link__icon">
+                         <use href="./sprite.svg#facebook"></use>
+                    </svg></a></li>
+                    <li class="social-list__item" ><a class="social-list__link" href=""> <svg class="social-link__icon">
+                         <use href="./sprite.svg#linkedin"></use> </svg></a> </li>
+          </address>
+     </li>
+     </ul>
+     </div>
+     </footer>
 </body>
 </html>
